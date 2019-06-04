@@ -32,6 +32,6 @@
 *.app
 
 # VS
-src/x64/
-src/.vs/
+**/x64/
+**/.vs/
 .vscode/
