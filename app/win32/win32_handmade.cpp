@@ -5,13 +5,12 @@
 // @brief 
 
 #include <windows.h>
-#include "test_src.h"
 
 int CALLBACK WinMain(HINSTANCE hInstance,
                      HINSTANCE hPrevInstance,
                      LPSTR lpCmdLine,
                      int nShowCmd) 
 {
-	test::P();
+    MessageBox(0, "Show", "What?", MB_OK | MB_ICONINFORMATION);
     return 0;
 }
